@@ -32,7 +32,7 @@ function AboutSection() {
             </div>
             <div className="details-container">
               <img
-                src="src/assets/education.png"
+                src="../src/assets/education.png"
                 alt="Education icon"
                 className="icon"
               />

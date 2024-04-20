@@ -5,6 +5,9 @@ import ProfileSection from './components/profile';
 import AboutSection from './components/about-me';
 import ContactSection from './components/contact';
 import NET from 'vanta/dist/vanta.net.min';
+
+import arrowIcon from './assets/arrow.png';
+
 function App() {
   const smoothScroll = (targetId) => {
     const targetElement = document.getElementById(targetId);
@@ -55,10 +58,10 @@ function App() {
             </div>
           </div>
           <img
-  src="src/assets/arrow.png"
+  src={arrowIcon}
   alt="Arrow icon"
   className="icon arrow"
-  onClick={() => smoothScroll("contact")} // Use an arrow function here
+  onClick={() => smoothScroll("contact")} 
 />
         </section>
         <ContactSection />

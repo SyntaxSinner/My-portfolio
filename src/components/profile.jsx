@@ -1,6 +1,11 @@
 import React from 'react';
 import "../styles/styles.css"; // Import CSS styles
 
+import profileImage from '../assets/jawhar1.jpeg';
+import linkedinIcon from '../assets/linkedin.png';
+import githubIcon from '../assets/github.png';
+
+
 function ProfileSection() {
   const handleCVDownload = () => {
     window.open('../assets/Resume_Jawhar_Djebbi.pdf');
@@ -24,7 +29,7 @@ function ProfileSection() {
     <section id="profile">
       <div className="section__pic-container">
         <img 
-          src="src/assets/jawhar1.jpeg" 
+          src={profileImage}
           alt="Jawhar Djebbi profile picture" 
           className="profile-image" // Add class for styling
         />
@@ -47,13 +52,13 @@ Welcome to my engineering realm! Explore my passion for innovation and technolog
         </div>
         <div id="socials-container">
           <img
-            src="src/assets/linkedin.png"
+            src={linkedinIcon}
             alt="My LinkedIn profile"
             className="icon"
             onClick={handleLinkedInClick}
           />
           <img
-            src="src/assets/github.png"
+            src={githubIcon}
             alt="My Github profile"
             className="icon"
             onClick={handleGithubClick}

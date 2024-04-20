@@ -10,16 +10,28 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { Modal } from '@mui/material';
 
+import project1Image1 from '../assets/projects_assets/mosaique_projet-visionfoot_2.jpg';
+import project1Image2 from '../assets/projects_assets/Photo équipe visionfoot1.jpg';
+import project1Image3 from '../assets/projects_assets/mosaique_projet-visionfoot_1.jpg';
+
+import project2Image1 from '../assets/projects_assets/trials3.PNG';
+import project2Image2 from '../assets/projects_assets/trials0.PNG';
+import project2Image3 from '../assets/projects_assets/trials4.jpg';
+
+import project3Image1 from '../assets/projects_assets/images (1).png';
+import project3Image2 from '../assets/projects_assets/634da835606a4e733e2e1c35ba0fae43.avif';
+import project3Image3 from '../assets/projects_assets/images.png';
+
+
 
 const data = [
   {
     label: 'VisionFoot, assisting inclusion',
     overview: 'Description for Slide 1',
     images: [
-      'src/assets/projects_assets/mosaique_projet-visionfoot_2.jpg',
-      'src/assets/projects_assets/Photo équipe visionfoot1.jpg',
-      'src/assets/projects_assets/mosaique_projet-visionfoot_1.jpg',
-      
+      project1Image1,
+      project1Image2,
+      project1Image3,
     ],
     githubLink: 'https://github.com/',
   },
@@ -27,9 +39,9 @@ const data = [
     label: 'KrakenVision: Image Segmentation, Counting, & Depth Camera Integration',
     overview: 'overview for Slide 2',
     images: [
-      'src/assets/projects_assets/trials3.PNG',
-      'src/assets/projects_assets/trials_0.PNG',
-      'src/assets/projects_assets/trials4.jpg',
+      project2Image1,
+      project2Image2,
+      project2Image3,
     ],
     githubLink: 'https://github.com/',
   },
@@ -37,13 +49,14 @@ const data = [
     label: 'API Servers: littlelemon & go-bank-server',
     overview: 'Overview for API Servers project',
     images: [
-      'src/assets/projects_assets/images (1).png',
-      'src/assets/projects_assets/634da835606a4e733e2e1c35ba0fae43.avif',
-      'src/assets/projects_assets/images.png', 
+      project3Image1,
+      project3Image2,
+      project3Image3,
     ],
     githubLink: 'https://github.com/',
   }
 ];
+
 
 function SwipeableTextMobileStepper() {
   const theme = useTheme();

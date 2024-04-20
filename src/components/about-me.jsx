@@ -1,5 +1,8 @@
 import React from 'react';
 import "../styles/styles.css"; // Import CSS styles
+import experienceIcon from '../assets/experience.png';
+import educationIcon from '../assets/education.png';
+import arrowIcon from '../assets/arrow.png';
 
 function AboutSection() {
 
@@ -22,20 +25,21 @@ function AboutSection() {
         <div className="about-details-container">
           <div className="about-containers">
             <div className="details-container">
-              <img
-                src="src/assets/experience.png"
-                alt="Experience icon"
-                className="icon"
-              />
+            <img
+  src={experienceIcon}
+  alt="Experience icon"
+  className="icon"
+/>
               <h3>Experience</h3>
               <p>1 year at Octomiro as a Backend AI Engineer</p>
             </div>
             <div className="details-container">
-              <img
-                src="../src/assets/education.png"
-                alt="Education icon"
-                className="icon"
-              />
+            <img
+  src={educationIcon}
+  alt="Education icon"
+  className="icon"
+/>
+
               <h3>Education</h3>
               <p>5 years Engineering Degree in Intelligent Systems (2020 - 2025)</p>
               <p>
@@ -54,11 +58,12 @@ function AboutSection() {
         </div>
       </div>
       <img
-        src="src/assets/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => smoothScroll("projects")} // Use an arrow function here
-      />
+  src={arrowIcon}
+  alt="Arrow icon"
+  className="icon arrow"
+  onClick={() => smoothScroll("projects")}
+/>
+
 
     </section>
   );

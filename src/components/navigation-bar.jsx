@@ -2,7 +2,7 @@ import "../styles/styles.css";
 
 function NavigationBar() {
   const title = "My Portfolio";
-  
+
   const smoothScroll = (targetId) => {
     const targetElement = document.getElementById(targetId);
     if (targetElement) {

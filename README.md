@@ -1,8 +1,17 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This repository showcases various projects that I've created. It's built using React and Vite, providing a minimal setup with Hot Module Replacement (HMR) and some ESLint rules.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio serves as a collection of my work, demonstrating my skills and capabilities as a software engineer. Each project included here represents a unique challenge and solution, reflecting my passion for building scalable and innovative software solutions.
+
+## Technologies Used
+
+- React: A popular JavaScript library for building user interfaces.
+- Vite: A fast, opinionated frontend build tool that serves as the build system for this portfolio.
+
+
+## License
+
+This portfolio is licensed under the [MIT License](LICENSE).

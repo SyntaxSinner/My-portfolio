@@ -46,9 +46,8 @@ function AboutSection() {
           </div>
           <div className="text-container">
             <p>
-            As an aspiring software engineer, I am deeply intrigued by disciplines such as system design, particularly when it involves integrating AI microservices. 
-            My passion lies in building scalable systems that not only leverage cutting-edge technology but also empower businesses to thrive and grow in today's dynamic landscape. 
-            Beyond my professional pursuits, I am also a dedicated tennis practitioner, finding joy and relaxation on the court while hitting ground strokes and a <br></br>
+            As an aspiring software engineer, I am deeply intrigued by disciplines such as system design, particularly when it involves integrating AI microservices. My passion lies in building scalable systems that not only leverage cutting-edge technology but also empower businesses to thrive and grow in today's dynamic landscape. Beyond my professional pursuits. <br></br> 
+            I am also a dedicated tennis practitioner, finding joy and relaxation on the court while hitting ground strokes 🎾😊. <br></br>
             I am committed to continuous learning and growth, both in my career and personal endeavors.
             </p>
           </div>

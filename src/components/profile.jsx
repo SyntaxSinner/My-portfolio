@@ -4,11 +4,11 @@ import "../styles/styles.css"; // Import CSS styles
 import profileImage from '../assets/jawhar1.jpeg';
 import linkedinIcon from '../assets/linkedin.png';
 import githubIcon from '../assets/github.png';
-
+import resume from '../assets/Resume_Jawhar_Djebbi.pdf'
 
 function ProfileSection() {
   const handleCVDownload = () => {
-    window.open('../assets/Resume_Jawhar_Djebbi.pdf');
+    window.open(resume);
   };
 
   const handleContactInfo = () => {

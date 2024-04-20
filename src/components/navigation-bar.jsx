@@ -2,6 +2,7 @@ import "../styles/styles.css";
 
 function NavigationBar() {
   const title = "My Portfolio";
+  
   const smoothScroll = (targetId) => {
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
@@ -41,9 +42,9 @@ function NavigationBar() {
           </div>
           <div className="menu-links">
             <ul>
-              <li><a href="#about" onClick={toggleMenu}>About</a></li>
-              <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-              <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+            <li><a href="#about" onClick={(e) => handleClick(e, 'about')}>About</a></li>
+            <li><a href="#projects" onClick={(e) => handleClick(e, 'projects')}>Projects</a></li>
+            <li><a href="#contact" onClick={(e) => handleClick(e, 'contact')}>Contact</a></li>
             </ul>
           </div>
         </div>

@@ -93,14 +93,15 @@ a:hover {
 
 .menu-links {
   position: absolute;
-  top: 100%;
+  top: 100%; /* Ensure the menu appears below the hamburger icon */
   right: 0;
   background-color: white;
   width: fit-content;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  max-height: unset; /* Remove the max-height limit to allow the menu to expand */
+  overflow: visible; /* Ensure content is visible when the menu is open */
+  transition: all 0.3s ease-in-out;
 }
+
 
 .menu-links a {
   display: block;

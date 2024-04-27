@@ -26,9 +26,9 @@ function App() {
       el: vantaRef.current,
       color: 0x000000, // Black color for the net
       backgroundColor: 0xffffff, // White background color
-      points: 20, // Adjust the number of points in the net
-      maxDistance: 25, // Adjust the maximum distance between points
-      spacing: 20, // Adjust the spacing between points
+      points: 4, // Adjust the number of points in the net
+      maxDistance: 10, // Adjust the maximum distance between points
+      spacing: 10, // Adjust the spacing between points
       showDots: true, // Show dots at the intersections of the net
       xOffset: 0.25, // Adjust the horizontal offset of the net 
       yOffset: 0.25, // Adjust the vertical offset of the net

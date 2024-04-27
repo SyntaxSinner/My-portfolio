@@ -27,33 +27,33 @@ import project3Image3 from '../assets/projects_assets/images.png';
 const data = [
   {
     label: 'VisionFoot, assisting inclusion',
-    overview: 'Description for Slide 1',
+    overview: '«I make 4 my city » is an international digital fabrication competition that unites the network of solidarity FabLabs supported by the Orange Foundation. In its third consecutive year, this challenge brings together 16 teams, including 5 from the solidarity FabLabs of the AUF, developed in partnership with the Orange Foundation. Within this context, our team embarked on a mission to revolutionize blind football training with VisionFoot. We developed an AI-powered ball thrower designed specifically to assist visually impaired athletes in honing their skills on the field. The VisionFoot system utilizes advanced AI algorithms to detect and track players participating in blind football. By seamlessly integrating into training sessions, our technology autonomously pursues players, assisting them in receiving passes and enhancing their gameplay. Real-time information and recordings about each players movements are displayed to coaches, enabling in-depth analysis of strategy and behavior. Our goal with VisionFoot is clear: to break down barriers and empower blind individuals to fully integrate into sports. By providing autonomous training solutions, we aim to foster inclusivity and enable visually impaired athletes to pursue their passion for football with confidence and independence.',
     images: [
       project1Image1,
       project1Image2,
       project1Image3,
     ],
-    githubLink: 'https://github.com/',
+    githubLink: 'https://github.com/SyntaxSinner?tab=repositories',
   },
   {
-    label: 'KrakenVision: Image Segmentation, Counting, & Depth Camera Integration',
-    overview: 'overview for Slide 2',
+    label: 'KrakenVision for Octomiro: Image Segmentation, Counting, & Depth Camera Integration',
+    overview: 'During a transformative internship experience, \nour team at Octomiro embarked on a groundbreaking mission to redefine industrial inspection processes. Leveraging the power of computer vision, our solution was designed to streamline warehouse operations by automating object counting and dimension extraction. \nAt its core, our computer vision pipeline is a testament to innovation. We harnessed the capabilities of depth cameras and state-of-the-art segmentation models to create a robust system capable of validating product entries with unparalleled accuracy and efficiency. \nMy role in this ambitious project was to architect the processing pipeline from end to end. This involved orchestrating the ingestion of RGB and depth images from RealSense cameras, which were then transmitted to a central processing server. Here, we leveraged cutting-edge techniques to construct a 3D representation of the captured space and identify objects of interest using our proprietary segmentation model, Little SAM. \nDespite initial challenges posed by limited compute resources, our determination led us to develop a highly optimized version of the SAM model, achieving an impressive 74% accuracy during the prototyping phase. With continued enhancements and optimizations, we successfully deployed our fully functioning processing pipeline, testing it across various industrial environments. \nThe impact of our solution was profound. By replacing manual object counting with automated computer vision, we significantly improved time efficiency and accuracy, revolutionizing traditional inspection methods. Our success not only earned our team a startup label in Tunisia but also established Octomiro as a formidable competitor in computer vision applications, setting new standards for industrial inspection technology.',
     images: [
       project2Image1,
       project2Image2,
       project2Image3,
     ],
-    githubLink: 'https://github.com/',
+    githubLink: 'https://github.com/SyntaxSinner/RealSenseWrapper',
   },
   {
     label: 'API Servers: littlelemon & go-bank-server',
-    overview: 'Overview for API Servers project',
+    overview: 'In the journey of mastering API design principles, our team embarked on a transformative project: API Servers. With the goal of gaining insights into authorization, authentication, and caching, we delved into the realms of Django and Go to architect two robust servers, each deployed in its own Docker container. At the heart of our project lies the PostgreSQL database and Redis cache server, serving as the backbone for data storage and caching operations. By adhering to ACID principles, we meticulously handled transactions, ensuring data integrity and reliability throughout the system. What truly captivated us about this project was the versatility of Go as a compiled language, particularly in web-based applications. Leveraging its performance and concurrency features, we crafted a powerful API server that seamlessly handled incoming requests with efficiency and speed. Moreover, our exploration of Kubernetes opened new horizons in server orchestration and communication. By deploying multiple servers and configuring them to communicate effectively, we gained invaluable insights into scalable and resilient infrastructure design. In retrospect, API Servers served as a cornerstone in our journey, providing a solid foundation in API design principles and empowering us to tackle complex challenges with confidence and expertise.',
     images: [
       project3Image1,
       project3Image2,
       project3Image3,
     ],
-    githubLink: 'https://github.com/',
+    githubLink: 'https://github.com/SyntaxSinner/go-bank-server',
   }
 ];
 
@@ -162,7 +162,7 @@ function SwipeableTextMobileStepper() {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    bgcolor: 'background.paper',
+    bgcolor: 'white', // Black background
     borderRadius: '8px',
     boxShadow: 24,
     p: 4,
@@ -171,7 +171,7 @@ function SwipeableTextMobileStepper() {
   <Typography id="modal-modal-title" variant="h6" component="h2">
     {data[activeStep].label}
   </Typography>
-  <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+  <Typography id="modal-modal-description" sx={{ mt: 2, color : 'black' }}>
     {data[activeStep].overview}
   </Typography>
 </Box>

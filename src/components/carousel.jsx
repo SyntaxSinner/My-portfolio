@@ -18,8 +18,6 @@ import project2Image1 from '../assets/projects_assets/trials3.jpg';
 import project2Image2 from '../assets/projects_assets/trials0.jpg';
 import project2Image3 from '../assets/projects_assets/trials4.jpeg';
 
-import project3Image1 from '../assets/projects_assets/images (1).jpg';
-import project3Image3 from '../assets/projects_assets/images.jpg';
 
 
 
@@ -43,15 +41,6 @@ const data = [
       project2Image3,
     ],
     githubLink: 'https://github.com/SyntaxSinner/RealSenseWrapper',
-  },
-  {
-    label: 'API Servers: littlelemon & go-bank-server',
-    overview: 'In the journey of mastering API design principles, our team embarked on a transformative project: API Servers. With the goal of gaining insights into authorization, authentication, and caching, we delved into the realms of Django and Go to architect two robust servers, each deployed in its own Docker container. At the heart of our project lies the PostgreSQL database and Redis cache server, serving as the backbone for data storage and caching operations. By adhering to ACID principles, we meticulously handled transactions, ensuring data integrity and reliability throughout the system. What truly captivated us about this project was the versatility of Go as a compiled language, particularly in web-based applications. Leveraging its performance and concurrency features, we crafted a powerful API server that seamlessly handled incoming requests with efficiency and speed. Moreover, our exploration of Kubernetes opened new horizons in server orchestration and communication. By deploying multiple servers and configuring them to communicate effectively, we gained invaluable insights into scalable and resilient infrastructure design. In retrospect, API Servers served as a cornerstone in our journey, providing a solid foundation in API design principles and empowering us to tackle complex challenges with confidence and expertise.',
-    images: [
-      project3Image1,
-      project3Image3,
-    ],
-    githubLink: 'https://github.com/SyntaxSinner/go-bank-server',
   }
 ];
 
